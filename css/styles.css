@@ -1,33 +1,50 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
 /* The navigation bar */
 .navbar {
   /* background-color: transparent; */
   /* overflow: hidden; */
   z-index: 2;
   background-color: #333;
-  position: fixed;
+  position: fixed;  
   top: 0;
   width: 100%;
-  padding: 0.2rem;
+  padding: 1rem;
 }
 
 .navbar-nav {
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-weight:700;
   margin-right: 2rem;
 }
 
 .navbar-brand {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 2rem;
   margin-left: 2rem;
+  font-weight: bold;
 }
 
 /* Main heading section    */
 
 .masthead {
-  padding: 6em 0 6em;
+  padding: 10em 0 10em;
   text-align: center;
-  background-color: skyblue;
+  background-color: #A2D2FF;
+}
+
+.masthead-intro{
+  font-size: 2rem;
+  padding-top: 1em;
 }
 
 .masthead-heading {
+  font-family: "Architects Daughter", cursive;
+  font-size: 4rem;
   padding-bottom: 2rem;
 }
 
@@ -40,23 +57,26 @@
 
 /* Content Sections */
 .white-section {
-  padding: 2rem 0.5rem 6rem;
+  padding: 4rem 3rem 10rem;
   text-align: center;
+  background-color: #FEF9EF;
 }
 
 .coloured-section {
-  background-color: burlywood;
-  padding: 2rem 0.5rem 3rem;
+  background-color: #FF865E;
+  padding: 4rem 3rem 10rem;
   text-align: center;
 }
 
 .section-headings {
-  margin: 2rem 2rem;
+  margin: 4rem 4rem;
+  font-size: 3.5rem;
 }
 
-/* .section-content{
-
-} */
+.section-content{
+  padding-bottom: 1rem;
+  font-size: 2rem;
+} 
 
 /*About Section */
 
@@ -67,7 +87,6 @@
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
-  background-color: white;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -85,7 +104,6 @@
 .timeline-container {
   padding: 0 40px 20px;
   position: relative;
-  background-color: white;
   width: 50%;
 }
 
@@ -102,7 +120,6 @@
 .content {
   padding: 0 30px;
   text-align: left;
-  background-color: white;
   /* background-color: rgb(97, 94, 89); */
   position: relative;
 }
@@ -163,10 +180,14 @@
   padding-top: 1rem;
 }
 
+.form-section{
+  padding: 1rem 0 1rem 0
+}
+
 /*Footer Section */
 .footer{
   text-align: center;
-  padding: 0.1rem 0 0.1rem 0;
+  padding: 1rem 0 0.5rem 0;
   background-color: #333;
   color: white;
 }
