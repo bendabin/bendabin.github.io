@@ -1,5 +1,6 @@
 body{
   font-family: 'Montserrat', sans-serif;
+  /* text-align: center; */
 }
 
 /* The navigation bar */
@@ -47,7 +48,7 @@ body{
 }
 
 .main-img{
-  width: 25%;
+  width: 20rem;
   border: 2px solid black;
   border-radius: 50%;
 }
@@ -144,8 +145,49 @@ body{
   margin-left: -90px;
 }
 
+/* Contact Section */
+
+.form-group {
+  padding-top: 1rem;
+}
+
+.form-section{
+  padding: 1rem 0 1rem 0
+}
+
+/*Footer Section */
+.footer{
+  text-align: center;
+  padding: 1rem 0 0.5rem 0;
+  background-color: #333;
+  color: white;
+}
+
+.social-icons{
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+  padding-left: 1rem;
+}
+
 /* Reduce the size of the screen when */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
+
+  /*Main Head section */
+  .main-img{
+    width: 10rem;
+  }
+
+  .masthead-heading {
+    font-size: 2rem;
+  }
+
+  /* Content Sections */
+  .section-headings {
+    margin: 4rem 4rem;
+    font-size: 2rem;
+  }
+
   /* Place the timeline to the left */
   .timeline::after {
     left: 65px;
@@ -170,29 +212,4 @@ body{
     margin-left: 0;
     margin-right: 0;
   }
-}
-
-/* Contact Section */
-
-.form-group {
-  padding-top: 1rem;
-}
-
-.form-section{
-  padding: 1rem 0 1rem 0
-}
-
-/*Footer Section */
-.footer{
-  text-align: center;
-  padding: 1rem 0 0.5rem 0;
-  background-color: #333;
-  color: white;
-}
-
-.social-icons{
-  font-size: 2rem;
-  text-decoration: none;
-  color: white;
-  padding-left: 1rem;
 }
