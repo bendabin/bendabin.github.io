@@ -173,6 +173,12 @@ body{
 /* Reduce the size of the screen when */
 @media screen and (max-width: 720px) {
 
+  /*Nav Bar */
+  .navbar-brand {
+    font-size: 1rem;
+  }
+
+
   /*Main Head section */
   .main-img{
     width: 10rem;
@@ -186,6 +192,18 @@ body{
   .section-headings {
     margin: 4rem 4rem;
     font-size: 2rem;
+  }
+
+  .section-content{
+    font-size: 1rem;
+  } 
+
+  .white-section {
+    padding: 2rem 3rem 10rem;
+  }
+  
+  .coloured-section {
+    padding: 2rem 3rem 10rem;
   }
 
   /* Place the timeline to the left */
