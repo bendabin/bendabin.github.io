@@ -2,8 +2,6 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
-
-
 /* The navigation bar */
 .navbar {
   /* background-color: transparent; */
@@ -146,33 +144,7 @@ body{
   margin-left: -90px;
 }
 
-/* Reduce the size of the screen when */
-@media screen and (max-width: 600px) {
-  /* Place the timeline to the left */
-  .timeline::after {
-    left: 65px;
-  }
 
-  /*Make the containers 100% of the width */
-  .timeline-container {
-    width: 100%;
-    padding-left: 100px;
-    padding-right: 0px;
-  }
-  .left {
-    text-align: left;
-  }
-  .right {
-    left: 0%;
-  }
-  /*position the images on the timeline*/
-  .timeline-container .timeline-img{
-    left: -90px;
-    top: 0px;
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
 
 /* Contact Section */
 
