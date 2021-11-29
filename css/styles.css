@@ -82,6 +82,14 @@ body{
 /*TIMELINE*/
 
 /* The actual timeline (the vertical ruler) */
+
+.timeline-txt{
+
+  font-size: 1.5rem;
+}
+
+
+
 .timeline {
   position: relative;
   max-width: 1200px;
